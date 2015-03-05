@@ -18,11 +18,11 @@
 //static NSString *ptUrl = @"http://www.phantasytour.com/bands/sci/shows";
 //static int bandId = 3; // SCI
 
-static NSString *ptUrl = @"http://www.phantasytour.com/bands/bisco/shows";
-static int bandId = 4; // Bisco
+//static NSString *ptUrl = @"http://www.phantasytour.com/bands/bisco/shows";
+//static int bandId = 4; // Bisco
 
-//static NSString *ptUrl = @"http://www.phantasytour.com/bands/um/shows";
-//static int bandId = 9; // UM
+static NSString *ptUrl = @"http://www.phantasytour.com/bands/um/shows";
+static int bandId = 9; // UM
 
 static NSString *url = @"http://www.phantasytour.com/";
 static NSString *api = @"api/shows/paged?";

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
@@ -65,7 +65,7 @@
         <window title="Setlist Preparation Application" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES" texturedBackground="YES" unifiedTitleAndToolbar="YES"/>
             <rect key="contentRect" x="335" y="390" width="935" height="768"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <value key="minSize" type="size" width="935" height="768"/>
             <value key="maxSize" type="size" width="936" height="769"/>
             <view key="contentView" wantsLayer="YES" id="372">
@@ -276,16 +276,16 @@
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="Song List" identifier="1" id="Uyu-Gz-iE1">
-                                <view key="view" ambiguous="YES" id="AwI-R3-vCa">
+                                <view key="view" id="AwI-R3-vCa">
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brk-j5-IUX">
                                             <rect key="frame" x="0.0" y="-600" width="911" height="600"/>
-                                            <clipView key="contentView" ambiguous="YES" misplaced="YES" id="e9S-ZQ-q0d">
+                                            <clipView key="contentView" misplaced="YES" id="e9S-ZQ-q0d">
                                                 <rect key="frame" x="1" y="1" width="909" height="598"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
-                                                    <collectionView ambiguous="YES" id="vEa-09-c8L" customClass="TabCollectionView">
+                                                    <collectionView id="vEa-09-c8L" customClass="TabCollectionView">
                                                         <rect key="frame" x="0.0" y="0.0" width="909" height="598"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -315,11 +315,11 @@
                                     <subviews>
                                         <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6lF-w6-xkr">
                                             <rect key="frame" x="-12" y="6" width="935" height="601"/>
-                                            <clipView key="contentView" ambiguous="YES" misplaced="YES" id="9UF-L4-9Rq">
+                                            <clipView key="contentView" misplaced="YES" id="9UF-L4-9Rq">
                                                 <rect key="frame" x="1" y="1" width="933" height="599"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
-                                                    <collectionView ambiguous="YES" alphaValue="0.0" maxNumberOfColumns="1" id="ceU-c6-9HI" customClass="TabCollectionView">
+                                                    <collectionView alphaValue="0.0" maxNumberOfColumns="1" id="ceU-c6-9HI" customClass="TabCollectionView">
                                                         <rect key="frame" x="0.0" y="0.0" width="933" height="599"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -371,7 +371,7 @@
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wE7-am-NhR">
                         <rect key="frame" x="780" y="4" width="135" height="24"/>
-                        <buttonCell key="cell" type="squareTextured" title="Load Alt Song List" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="czv-Ni-PF1">
+                        <buttonCell key="cell" type="squareTextured" title="Import Alt Song List" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="czv-Ni-PF1">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>

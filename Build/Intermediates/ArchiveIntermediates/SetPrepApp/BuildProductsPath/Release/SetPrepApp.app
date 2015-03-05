@@ -1,1 +1,0 @@
-/Users/MasaP/Src/GitHub/SetPrepApp/Build/Intermediates/ArchiveIntermediates/SetPrepApp/InstallationBuildProductsLocation/Applications/SetPrepApp.app
