@@ -11,3 +11,4 @@ DerivedData
 *.xccheckout
 *.xcworkspace
 !default.xcworkspace
+*.app
